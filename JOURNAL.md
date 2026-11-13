@@ -267,3 +267,21 @@ That was all I was able to get done today, so I will continue with the gummy-o-r
 I added an additonal two hours to accomodate for the research I actual will use for my project that I did during the half afternoon and most of my evening I spent browsing the internet on keyboards. (Aside form what I described earlier, I found out what O-ring I was going to use, the clearance I will require for my PCB, a few designs I want to base mine off of - basically everything I needed to know to start making this design).
 
 **Total time spent: 3.82 hours**
+
+# November 13: Fixes for Approval - The Case is Done!
+
+I finished the case and I am actually really happy with how it turned out. Without a doubt I prefer this to the old design. As I said before, the keyboard is now designed to be a gummy-o-ring gasket mount. Instead of a low-profile style like the previous design, this one now has a high profile as it is generally preferred by keyboard enthusiasts and I honestly think I prefer this style too. Plus, with the case being completely transluscent, I am not missing out on the extra light visibility the low profile design gave. The case still has a 5 degree incline, however it now features a double length chamfer and a comfort bevel in the front. The only thing I am mildy unstatisfied with is the fact my PCB had a notable 3-4mm border around the switches which created a notable gap when combined with the gap I left for the gummy-o-ring gasket mount. I'm also pround of organizing my Onshape project better - after looking at some examplars I noticed how difficult it was to naviagte my old Onshape project.
+
+![Bolide65 2.0](assets/journal/bolide-journal-2.0.png)
+
+I *really* hope the next entry will be a build update!
+
+[**Laspe Recording**](https://lapse.hackclub.com/timelapse/tFo-L-oRcoLp)
+
+I added an addtional 15 minutes to account for the time I lost when I forgot to unpasue my recording...
+UPDATE: I added the O-ring to my CAD assembly so I will add an extra 10 minutes to the time as well.
+
+**Total time spent: 2.37 hours**
+
+
+

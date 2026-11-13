@@ -1,7 +1,7 @@
 # Bolide65
 Bolide65 is a 66 key, 65% keyboard with a rotary encoder and RGB backlighting under each key. It was built as a submission to Hack Club's [Forge](https://forge.hackclub.com/) YSWS program.
 
-![DONE](assets/journal/bolide-journal-IM_DONE_XD.png)
+![DONE](assets/readme/bolide-assembly.png)
 
 I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t* and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (eg. incorporating lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
 
@@ -52,32 +52,31 @@ The QMK firmware the keyboard microcontroller must be flashed with includes the 
 
 ## CAD
 
-The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e99e54822f92a5f5925595cc/w/6180f1e1b18eeb4808e4ffdc/e/0a846f45fd57540ab5465ead?renderMode=0&leftPanel=false&uiState=6ad9a2dd98262f828faa99c4), utilizes a gummy-o-ring gasket keyboard mount style, hence, no screws are needed for this design. All one needs to do to assemble is solder the switches to the PCB, connect the switches to the top plate, add the o-ring (I recommended using the large blue GraveShift™ O-rings; the orange and green colors also work), and push it into the case. The case was designed to be made of Translucent 8001 Resin, so they keyboard can still *shine like a bolide*. Although any matierial of your choice can work. Similary, the final build will use a brass switch plate (to add weight to the keyboard) but a cheaper matierial such as FR4 or PLA will work). Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through keycaps are recommneded fo this keyboard design.
+The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e20ea32dfc7030467aec0ff3/w/b7b45069ea496daed0bdf8db/e/1ffd2733c11c98bf9e533695?renderMode=0&uiState=6af77d7c11999bcd9a8952bf), utilizes a gummy-o-ring gasket keyboard mount style, hence, no screws are needed for this design. All one needs to do to assemble is solder the switches to the PCB, connect the switches to the top plate, add the o-ring (I recommended using the large blue GraveShift™ O-rings; the orange and green colors also work), and push it into the case. The case was designed to be made of Translucent 8001 Resin, so they keyboard can still *shine like a bolide*. Although any matierial of your choice can work. Similary, the final build will use a brass switch plate (to add weight to the keyboard) but a cheaper matierial such as FR4 or PLA will work). Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through keycaps are recommneded fo this keyboard design.
 
 Thanks to [Kael Ruland](https://github.com/anhthang/dsa-keycap), [GrabCAD](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and the [scottokeebs](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad/3dmodels) Github for some of the 3D models I used! 
 
 ![DONE](assets/readme/bolide-CAD.png)
 
-| Item Name | Qty | Price (USD) | Item link | Notes |
-|---|---|---|---|---|
-| 330 Ω 0603 resistor [Uni-Royal 0603WAF3300T5E] | 100 | $0.26 | [LCSC](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html) | Must purchase 100 in order to source the 1 resistor needed. 0603, SMD |
-| 0.1 µF Ceramic Capacitors [Samsung Electro-Mechanics CL10B104KB8NNNC] | 100 | $0.79 | [LCSC](https://www.lcsc.com/product-detail/C1591.html) | Must purchase 100 in order to source the 67 capacitors needed. 0603, SMD |
-| 74AHCT1G125 Level Shifter [TI SN74AHCT1G125DBVR] | 5 | $0.50 | [LCSC](https://www.lcsc.com/product-detail/C7484.html) | Must purchase 5 in order to source the 1 level shifter needed. SOT-23-5, use the AHCT version, not AHC |
-| Fast Switching Diode [Changzhou Starsea Elec 1N4148] | 100 | $1.34 | [LCSC](https://www.lcsc.com/product-detail/C85057.html) | Must purchase 100 in order to source the 67 diodes needed. Through-hole (DO-35) |
-| SK6812 MINI-E Addressable LEDs | 70 | $4.56 | [LCSC](https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) | Must purchase 70 in order to source the 66 LEDs needed. Reverse mount |
-| PCB | 1 | $19.00 | [JLCPCB](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/bolide-pcb_quote.png) | Uses default PCB settings on JLCPCB |
-| Womier Pudding Keycaps, Black PBT Shine Through (130 Keycap Set) | 1 | $12.61 | [Amazon](https://www.amazon.ca/Womier-Pudding-Keyboard-Switches-Keyboard-Black/dp/B0D4DN5HK1?source=ps-sl-shoppingads-lpcontext&smid=AZ1RQDED92VC&th=1) | Keycap choice is not mandatory. Can choose other keycap set; see-through recommended. Matching key sizes specified in additional notes |
-| PCB Mount Screw In Stabilizers (1x 6.25u, 4x 2u) | 1 | $4.72 | [Amazon](https://www.amazon.ca/Mechanical-Keyboard-Stabilizers-Stabilizer-Backlight/dp/B0GS7HQJP6?source=ps-sl-shoppingads-lpcontext&th=1) | Stabilizer choice is not mandatory. Can choose other screw in stabilizer set. 3x 2u, 1x 6.25u |
-| Glorious Fox Linear Mechanical Switches (110 pcs) | 1 | $23.09 | [Amazon](https://www.amazon.ca/Glorious-Linear-Mechanical-Switches-Keyboards/dp/B0D7QW8SQ9?th=1) | Switch choice is not mandatory. Can choose other MX-style switch |
-| Waveshare RP2040 Zero | 1 | $4.20 | [RobotShop](https://ca.robotshop.com/products/rp2040-zero-pico-like-mcu-board-based-on-rp2040-mini-version-w-o-header) | Ensure you have pin headers |
-| EC11 Rotary Encoder | 1 | $2.22 | [LCSC](https://www.lcsc.com/product-detail/C202365.html) | CAD files have custom knob |
-| Bottom Case | 1 | $16.73 | [JLCPCB](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses 9000HE Resin |
-| Middle Case | 1 | $3.22 | [JLCPCB](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses Translucent 8001 Resin |
-| Top Plate | 1 | $4.66 | [JLCPCB](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses LEDO 6060 Resin (too thin for 9600HE) |
-| Rotary Encoder Knob | 1 | $0.32 | [JLCPCB](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses 9600 Resin |
-| M3x16mm screws | 4 | $8.69 | [Amazon](https://www.amazon.ca/uxcell-M3x16mm-Alloy-Socket-Screws/dp/B012T9FWEI) | Price is only for 12 screws; likely better price at local stores |
-| M3x5mmx4mm Heatset Inserts | 4 | $7.69 | [AliExpress](https://www.aliexpress.com/item/4000232858343.html) | Price is for 100pcs |
-| **Total Price (USD):** | | **$114.60** | | |
+| Item Name | Qty | Price (total) (USD) | Item Link | Notes |
+| :--- | :---: | :---: | :--- | :--- |
+| 330 Ω 0603 resistor [Uni-Royal 0603WAF3300T5E] | 100 | $0.26 | [LCSC](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html) | Must purchase 100 in order to source the 1 resistor needed. Purpose: To protect LED backlights and ensure stable signal transmission. |
+| 0.1 µF Ceramic Capacitors [Samsung Electro-Mechanics CL10B104KB8NNNC] | 100 | $0.79 | [LCSC](https://www.lcsc.com/product-detail/C1591.html) | Must purchase 100 in order to source the 67 capacitors needed. Purpose: To smooth out power fluctuations and subsequently prevent LEDs from glitching or resetting. |
+| 74AHCT1G125 Level Shifter [TI SN74AHCT1G125DBVR] | 5 | $0.50 | [LCSC](https://www.lcsc.com/product-detail/C7484.html) | Must purchase 5 in order to source the 1 level shifter needed. Purpose: To translate the low 3V3 voltage data from the RP2040 Zero to the higher level required by the LEDs. |
+| Fast Switching Diode [Changzhou Starsea Elec 1N4148] | 100 | $1.34 | [LCSC](https://www.lcsc.com/product-detail/C85057.html) | Must purchase 100 in order to source the 67 diodes needed. Purpose: Used in matrix wiring to prevent ghosting from keyboard. |
+| SK6812 MINI-E Addressable LEDs | 70 | $4.56 | [LCSC](https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) | Must purchase 70 in order to source the 66 LEDs needed. Purpose: To add programmable backlight to keyboard. |
+| PCB | 1 | $19.00 | [Quote](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/bolide-pcb_quote.png) | Uses default PCB settings on JLCPCB. |
+| Womier Pudding Keycaps, Black PBT Shine Through (130 Keycap Set) | 1 | $12.61 | [Amazon.ca](https://www.amazon.ca/Womier-Pudding-Keyboard-Switches-Keyboard-Black/dp/B0D4DN5HK1?source=ps-sl-shoppingads-lpcontext&smid=AZ1RQDED92VC&th=1) | Keycap choice is not mandatory. Can choose other keycap set; see-through recommended. |
+| PCB Mount Screw In Stabilizers (1x 6.25u, 4x 2u) | 1 | $4.72 | [Amazon.ca](https://www.amazon.ca/Mechanical-Keyboard-Stabilizers-Stabilizer-Backlight/dp/B0GS7HQJP6?source=ps-sl-shoppingads-lpcontext&th=1) | Stabilizer choice is not mandatory. Can choose other screw-in stabilizer set. |
+| Glorious Fox Linear Mechanical Switches (110 pcs) | 1 | $23.09 | [Amazon.ca](https://www.amazon.ca/Glorious-Linear-Mechanical-Switches-Keyboards/dp/B0D7QW8SQ9/ref=pd_rhf_dp_s_pd_crcd_d_sccl_2_2/142-2623382-8190419?pd_rd_w=N9TW7&content-id=amzn1.sym.db0cabc9-3101-4abd-a708-693101cbc296&pf_rd_p=db0cabc9-3101-4abd-a708-693101cbc296&pf_rd_r=X0XF2N9P9SKDEEZ0JG4Q&pd_rd_wg=DsLHD&pd_rd_r=42983987-2f36-40de-b8c0-a3e2db3e17d2&pd_rd_i=B0D7QW8SQ9&th=1) | Switch choice is not mandatory. Can choose other MX-style switch. |
+| Waveshare RP2040 Zero | 1 | $4.20 | [RobotShop](https://ca.robotshop.com/products/rp2040-zero-pico-like-mcu-board-based-on-rp2040-mini-version-w-o-header) | Ensure you have pin headers. |
+| EC11 Rotary Encoder | 1 | $2.22 | [LCSC](https://www.lcsc.com/product-detail/C202365.html) | CAD files have custom knob. |
+| Rotary Encoder Knob | 1 | $0.32 | [Quote](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses 9600 Resin. |
+| GraveShift™ Large Blue O-ring | 1 | $6.10 | [Mech.land](https://mech.land/products/graveshift-o-rings?variant=43233476739299) | Green and Orange also recommended. |
+| Case | 1 | $39.29 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_case.png) | Uses 9600 Resin; did not use 8001 Resin as it is over $100. |
+| Switch Plate | 1 | $26.89 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/bolide-switch_plate.png) | Uses Brass; can use cheaper material. |
+| **Total Price (USD):** | | **$145.89** | | |
+
 
 ## Additonal Notes
 
@@ -103,3 +102,4 @@ Many thanks to the creators of Marbastlib and kbplacer for making my life easier
 
 
 
+![alt text](image.png)

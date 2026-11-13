@@ -5,4 +5,4 @@
 
 * The `.json` file was used to generate the top plate using the [ai03 Plate Generator](https://kbplate.ai03.com/).
 
-* The source design can be found [here](https://cad.onshape.com/documents/e99e54822f92a5f5925595cc/w/6180f1e1b18eeb4808e4ffdc/e/0a846f45fd57540ab5465ead?renderMode=0&leftPanel=false&uiState=6ad9a2dd98262f828faa99c4).
+* The source design can be found [here](https://cad.onshape.com/documents/e20ea32dfc7030467aec0ff3/w/b7b45069ea496daed0bdf8db/e/1ffd2733c11c98bf9e533695?renderMode=0&uiState=6af77d7c11999bcd9a8952bf).
