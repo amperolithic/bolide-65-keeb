@@ -3,13 +3,13 @@ Bolide65 is a 66 key, 65% keyboard with a rotary encoder and RGB backlighting un
 
 ![DONE](assets/journal/bolide-journal-IM_DONE_XD.png)
 
-I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t* and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (of incorporationg lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
+I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t* and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (eg. incorporating lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
 
 <img src="assets/readme/bolide-pcb_front.png" alt="PCB 3D" width="100%"> 
 
 ## Features
 
-- 66 Cherry MX-compatible switch footprints in a custom 65% layout
+- 66 cherry MX-compatible switch footprints in a custom 65% layout
 - EC11 rotary encoder (push button enabled)
 - RP2040 Zero microcontroller (USB-C) using QMK firmware
 - 66 reverse mount SK6812MINI-E RGB LEDs on a single data chain
@@ -26,11 +26,11 @@ A 6.25u screw-in stabilizers is needed for the Backspace key, while 2u screw-in 
 
 ## PCB
 
-[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/reuthecoder/bolide-65-keeb/tree/main/pcb)
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/amperolithic/bolide-65-keeb/tree/main/pcb)
 
 This is the PCB (307x101mm) I made for Bolide65, made in KiCad 10.0. Most of the footprints came from the [Marbastlib](https://github.com/ebastler/marbastlib) library, the microcontroller footprint was sourced from [SnapMagic](https://www.snapeda.com/parts/RP2040-ZERO/Waveshare%20Electronics/view-part/), and anything else came from KiCad's default libraries. I used the kbplacer plugin to correctly arrage the switches according to my keymap. 
 
-The microcontroller, LEDs, diodes, resistors, and capacitors are meant to be soldered to the back of the board, while everything else is soldered tot the front. It is a 2 layer PCB with GND copper pours on both sides, and DRC passes with only silkscreen warnings. (No errors)
+The microcontroller, LEDs, diodes, resistors, and capacitors are meant to be soldered to the back of the board, while everything else is soldered to the front. It is a 2 layer PCB with GND copper pours on both sides, and DRC passes with no errors!
 
 **Schematic:**
 
@@ -52,7 +52,9 @@ The QMK firmware the keyboard microcontroller must be flashed with includes the 
 
 ## CAD
 
-The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e99e54822f92a5f5925595cc/w/6180f1e1b18eeb4808e4ffdc/e/0a846f45fd57540ab5465ead?renderMode=0&leftPanel=false&uiState=6ad9a2dd98262f828faa99c4), utilizes a 'reverse' sandwich keyboard mount style: the top plate is the top most layer and there is a transluscent middle part that allows light to diffuse through the case and give a streak of color to the enclosure design (like a bolide does to the night sky). The case is designed for 4 M3x16mm screws, which are meant to screw into M3 heatset inserts with a 5mm OD and 4mm height. The inserts are inserted into the bottom case. Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through keycaps are recommneded fo rthis keyboard design.
+The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e99e54822f92a5f5925595cc/w/6180f1e1b18eeb4808e4ffdc/e/0a846f45fd57540ab5465ead?renderMode=0&leftPanel=false&uiState=6ad9a2dd98262f828faa99c4), utilizes a gummy-o-ring gasket keyboard mount style, hence, no screws are needed for this design. All one needs to do to assemble is solder the switches to the PCB, connect the switches to the top plate, add the o-ring (I recommended using the large blue GraveShift™ O-rings; the orange and green colors also work), and push it into the case. The case was designed to be made of Translucent 8001 Resin, so they keyboard can still *shine like a bolide*. Although any matierial of your choice can work. Similary, the final build will use a brass switch plate (to add weight to the keyboard) but a cheaper matierial such as FR4 or PLA will work). Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through keycaps are recommneded fo this keyboard design.
+
+Thanks to [Kael Ruland](https://github.com/anhthang/dsa-keycap), [GrabCAD](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and the [scottokeebs](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad/3dmodels) Github for some of the 3D models I used! 
 
 ![DONE](assets/readme/bolide-CAD.png)
 
@@ -83,7 +85,8 @@ This was my second ever PCB project and I am quite satisfied with what I could g
 - No hotswap; this keyboard is meant to have all its components hand soldered to it. It's cheaper, and I wanted to get more soldering experience through this project.
 - The encoder's push button is wired through the matrix (9 columns by 8 rows) so it can be used when pushed (function not decided yet) while its rotation pins go straight to the microcontroller GPIO.
 - To protect my LEDs and ensure stable signal transmission, its data chain passes through the level shifter (U2) and a 330 Ω series resistor (R1) before LED1, and every LED has its own 0.1 µF decoupling capacitor (C2-C67), with C1 for the shifter. I did not add a bulk capacitor, so brightness should be capped in firmware to stay within USB power limits.
-- The PCB folder contains the design files for an alternative top plate, where instead of 3D printing the top case, you can order it as FR4 (fiberglass) through a PCB provider. It's up to personal preference, as some prefer its sound. The white version may also match better with the 9600 Resin than the LEDO 6060 Resin. The price is about $22.10 to produce however. (Pro tip: Add your own custom silkscreen to personalize your own keyboard!)
+- I know my routing is horrendous, but it gets the job done. I hope to imprve my routing capabilities as I continue to make more PCBs.
+
 
 | Keycap | Size |
 |---|---|
@@ -95,7 +98,7 @@ This was my second ever PCB project and I am quite satisfied with what I could g
 | Space | 6.25u |
 | All remaining keys | 1u |
 
-Many thanks to the creators of Marbastlib and kbplacer for making my life easier during the design process. Also, I would like to say thank you so much to the organizers of [Forge](https://forge.hackclub.com/) and those at the [HackClub](https://hackclub.com/) hq for this wonderful hardware exploration opportunity!
+Many thanks to the creators of Marbastlib and kbplacer for making my life easier during the design process. Also, I would like to say **thank you so much** to the organizers of [Forge](https://forge.hackclub.com/) and those at the [HackClub](https://hackclub.com/) hq for this wonderful hardware exploration opportunity!
 
 
 
