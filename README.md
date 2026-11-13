@@ -42,7 +42,7 @@ The project is split across three sheets: the root sheet (microcontroller, level
 
 **PCB:**
 
-![Screenshot of PCB in KiCad](assets/readme/bolide65-pcb.png)
+![Screenshot of PCB in KiCad](assets/readme/bolide-pcb.png)
 
 ## Firmware 
 The QMK firmware the keyboard microcontroller must be flashed with includes the matrix, encoder, and RGB matrix settings for the RP2040. Some notable firmware features are:
