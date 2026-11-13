@@ -237,3 +237,33 @@ So I quickly made those changes to my repo. As seen in the image, I was able to 
 I'm excited to start building (hopefully) soon!
 
 **Total time spent: 0.08 hours**
+
+# November 12: Fixes for Approval - Part 2
+
+My project was returned for changes yesterday (again). Here is what I was told:
+
+> Hey there, really cool keyboard! However, some changes are required! 
+> - You need to put keycaps on the keyboard! A complete assembly is not complete without the keycaps!
+> - For the Onshape assembly, can you please mate and assemble everything, like get everything closed and put on some scrwes!
+>
+> Please make the changes and submit again! Happy forging!
+
+These fixes required a little bit more time. Honestly, I'm glad it was returned because as I was waiting for approval I realized I was actually quite unhappy with the case design (particularly the visible screw holes). I also wish I could redo my routing (using good routing principles like keeping front and back layer traces perpendicular to eachother whenever possible) but I don't think its worth it as it's currently functional. As I was making it I just wanted to get the project done so I could start building as soon as possible and got lazy. I could have taken the time to do more research on routing or how keyboard cases are assembled.
+
+So I decided to use this return as an opportunity to do just that. In doing so I learned more about how cases can complement the sound of a keybopard switch types (liner, thocky, etc), what makes a keyboard feel premium and ways to hide screws in the final build. After doing such research, I decided I would be changing over to a Gummy O-Ring Mount keyboard. I will have a single body piece, in which the PCB and top mount will friction fit into (no screws). The top plate will be made out of brass to add some weight to the case (I read heavier keyboard feel more premium because it weight helps ground it to a desk rather than shift around). It also pairs well with my linear switches to create a bright, crisp, and clean clack. The case will now entirely be made of 8001 photosensitive resin so it can still keep its "Bolide" identity.
+
+With this new plan, I decided to basically redo the case after adding keycaps to my PCB design (thanks to [Kael Ruland's Gitub repo](https://github.com/anhthang/dsa-keycap)). 
+
+![it got keycaps now](assets/journal/bolide-journal-keycaps.png)
+
+Although I can reuse some components like the rotary encoder, I will have to redo other componets, like the switch plate, which I made larger to accomodate for my case walls. Now the switch plate will rest inside the walls, so I have to align my top plate to my PCB and ensure it was the exact same size as it.
+
+That was all I was able to get done today, so I will continue with the gummy-o-ring gasket mount tommorow.
+
+[**Laspe Recording**: Keycaps](https://lapse.hackclub.com/timelapse/A4zYQGeTzbDc)
+
+[**Laspe Recording**: New Case Design](https://lapse.hackclub.com/timelapse/gCBfYGGTAHM3)
+
+I added an additonal two hours to accomodate for the research I actual will use for my project that I did during the half afternoon and most of my evening I spent browsing the internet on keyboards. (Aside form what I described earlier, I found out what O-ring I was going to use, the clearance I will require for my PCB, a few designs I want to base mine off of - basically everything I needed to know to start making this design).
+
+**Total time spent: 3.82 hours**
