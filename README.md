@@ -101,5 +101,3 @@ Many thanks to the creators of Marbastlib and kbplacer for making my life easier
 
 
 
-
-![alt text](image.png)
