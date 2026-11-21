@@ -283,5 +283,9 @@ UPDATE: I added the O-ring to my CAD assembly so I will add an extra 10 minutes 
 
 **Total time spent: 2.37 hours**
 
+# November 20: Case Adjustments
 
+I had some time today to go over my design and made a few changes. I also tried to make some blender renders. Right now the changes can only be seen in my ONshape file, but I'll make some commits and update this journal/
+
+**Total time spent: 2.00 hours**
 
