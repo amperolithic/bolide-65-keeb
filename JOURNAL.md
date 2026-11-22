@@ -285,13 +285,37 @@ UPDATE: I added the O-ring to my CAD assembly so I will add an extra 10 minutes 
 
 # November 20: Case Adjustments
 
-I had some time today to go over my design and made a few changes. I also tried to make some blender renders. Right now the changes can only be seen in my ONshape file, but I'll make some commits and update this journal/
+I had some time today to go over my design and I ended up making a few changes. I was comparing my design to other gummy-o-ring mounted keyboards and was wondering why their gap was not as extreme as mine (as evident in the last journal entry). Upon further research, I discovered its because they add ledges that etrude from the top of the inner wall that create a much tigher border to the keycaps. This does not interfere with inserting the case, because, as long the side ledges do not block your PCB, you can angle one section in, push it all the way back, then squeeze the other section into the case. So, I decided to add those side ledges to the wall. Now the front and back gap does not exist, and there is a 0.4mm gap between the PCB and the side ledges. 
 
-**Total time spent: 2.00 hours**
+![compare](assets/journal/bolide-journal-top.png)
+
+While I as at it, I made a few other adjustments and addtions to the keyboard case to help it feel more polished. For instance, I also added a cover for the blank section of keyboard and widened my rotary encoder to match the size of the keycaps.
+
+![Bolide65  Case WIP](assets/journal/bolide-journal-itperfect.jpeg)
+I figured out how to use section view to analyze the inisde of my case; in the photo am adding fillets to where my ledges meet the actual wall to increase the structural integrity of my resin print. (Resin prints usually chip or break of at 90° intersections). I also changed some of the mateiral colors to reflect what I think my actual build will look like. (I don't think I will use the transparent resin anymore because its too expensive, I'll update you one exactly what I'm changing it too in the next journal)
+
+I also added a custom symbol to the case (per my sister's request) that won't 'technically' be part of the official design, but will be included in my final build.
+
+![alt text](assets/journal/bolide-journal-CATS.png)
+
+I did not all do this in one session, it scattered throughout the day. I would make some changes, leave, come back to it, realize I need to make some more changes (increase ledge width, add/adjust fillets and chamfers) and repeat until I was all done. The total time is what I beleive to be an accurate representation of this whole process.
+
+**Total time spent: 2.05 hours**
 
 # November 21: Blender Renders
 
-I learned how to use blender and spent some time choosing some NEW materials for my final build to produce an aesthetic blender render. Will add a more detailed entry soon!
+The last time I used blender was 2023. I was using version 3.6! Yesterday, I decided I will try and get back into it by making some renders of my case, unfortunately, I ran out of time. Today I was able to get blender running and produce some nice renders.
 
-**Total time spent: 1.05 hours**
+![render top](assets/readme/render_top_view.png)
+![redner iso](assets/readme/render_iso_view.png)
+![alt text](assets/readme/render_expandable_view.png)
+
+However, I ran into a lot of issues. Firstly, my laptop uses a processor that no longer recieves full feature updates any more, meaning, after a lot of trial and error, I discovered the latest version of Blender my laptop can run is Blender 4.1 (if I want to use Eevee). In any other version I tried to add mateirals or enter rendered view with Eevee, Blender would immediately crash. Another issue that I ran to when I was trying to create my renders was that I had complelty messed up my lighting (my keyboard was a glowing mass at one point) and my camera would not pick up my keyboard (due to incorrect clip settings) - both of which were caused by me not accounting for the fact I changed my scale from meters to milimeters.
+
+I chose to render it this way becuase I decided instead of using 8001 Resin, I would print the case with 9600 Resin (which is much cheaper). The top plate - instead of being brass - will be made from transparent arcylic (also much cheaper) and still lets a lot of light through. The PCB will have a white silkscreen so it maximises how much light reflects out of the case. Since a portion of my case is completely solid (something I did not account for previously), I think the case will still have some substantial heft. ith the change in top plate material, I think I will move my O-ring hardness from 40A to 45A (blue to green) as well. Additionally, I think this setup is a bit more aesthetic than before and still emphasizes its RGB element. I can;t wait to see how this turns out!
+
+The total time accounts for the time I spent seperating elements, adding materials, adjusting lighting and adjusting render settings, not the time it took me to fix the many issues I faced due to my lack of blender knowledge. Some additonal time was added to account for updating my BOM.
+
+
+**Total time spent: 1.53 hours**
 
