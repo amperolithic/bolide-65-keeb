@@ -1,17 +1,17 @@
-Item Name,Qty,Price (total) (USD),Item link,Notes
-330 Ω 0603 resistor [Uni-Royal 0603WAF3300T5E],100,$0.26,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html,Must purchase 100 in order to source the 1 resistor needed. Purpose: To protect LED backlights and ensure stable signal transmission.
-0.1 µF Ceramic Capacitors [Samsung Electro-Mechanics CL10B104KB8NNNC],100,$0.79,https://www.lcsc.com/product-detail/C1591.html,Must purchase 100 in order to source the 67 capacitors needed. Purpose: to smooth out power fluctuations and subsequently prevent LEDs from glitching or resetting
-74AHCT1G125 Level Shifter [TI SN74AHCT1G125DBVR],5,$0.50,https://www.lcsc.com/product-detail/C7484.html,Must purchase 5 in order to source the 1 level shifter needed. Purpose: To translate the low 3V3 voltage data from the RP2040 Zero to the higher level required by the LEDs
-Fast Switching Diode [Changzhou Starsea Elec 1N4148],100,$1.34,https://www.lcsc.com/product-detail/C85057.html,Must purchase 100 in order to source the 67 diodes needed. Purpose: Used in matrix wiring to prevent ghosting from keyboard
-SK6812 MINI-E Addressable LEDs,70,$4.56,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html,Must purchase 70 in order to source the 66 LEDs needed. Purpose: To add programmable backlight to keyboard
-PCB,1,$19.00,https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/bolide-pcb_quote.png,Uses default PCB settings on JLCPCB
-"Womier Pudding Keycaps, Black PBT Shine Through (130 Keycap Set)",1,$12.61,https://www.amazon.ca/Womier-Pudding-Keyboard-Switches-Keyboard-Black/dp/B0D4DN5HK1?source=ps-sl-shoppingads-lpcontext&smid=AZ1RQDED92VC&th=1,Keycap choice is not mandatory. Can choose other keycap set; see through recommended
-Gateron Ink Plate-Mounted Stabilizers,1,$13.95,https://gateron.com choice is not mandatory. Can choose other plate-mounted stabilizer set
-Gateron G Pro 3.0 Switches (35 pcs),2,$13.94,https://oneofzero.net purchase 2 packs (70 switches) to cover the 66 switches needed. Switch choice is not mandatory; can choose other MX-style switch
-Waveshare RP2040 Zero,1,$4.20,https://ca.robotshop.com/products/rp2040-zero-pico-like-mcu-board-based-on-rp2040-mini-version-w-o-header,Ensure you have pin headers
-EC11 Rotary Encoder,1,$2.22,https://www.lcsc.com/product-detail/C202365.html files have custom knob
-Rotary Encoder Knob,1,$0.32,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg 9600 Resin
-GraveShift™ Large Green O-ring,1,$6.10,https://mech.land/products/graveshift-o-rings?variant=43233476772067 hardness; Blue and Orange also recommended
-Case,1,$40.75,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg 9600 Resin; did not use 8001 Resin as it is over $100
-Switch Plate,1,$12.45,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg acrylic; can use cheaper material
-Total Price (USD):,,$132.99,,
+Item Name,Qty,Price (total) (USD),Item Link,Notes
+"330 Ω 0603 resistor [Uni-Royal 0603WAF3300T5E]",100,$0.26,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html,"Must purchase 100 in order to source the 1 resistor needed. Purpose: To protect LED backlights and ensure stable signal transmission."
+"0.1 µF Ceramic Capacitors [Samsung Electro-Mechanics CL10B104KB8NNNC]",100,$0.79,https://www.lcsc.com/product-detail/C1591.html,"Must purchase 100 in order to source the 67 capacitors needed. Purpose: To smooth out power fluctuations and subsequently prevent LEDs from glitching or resetting."
+"74AHCT1G125 Level Shifter [TI SN74AHCT1G125DBVR]",5,$0.50,https://www.lcsc.com/product-detail/C7484.html,"Must purchase 5 in order to source the 1 level shifter needed. Purpose: To translate the low 3V3 voltage data from the RP2040 Zero to the higher level required by the LEDs."
+"Fast Switching Diode [Changzhou Starsea Elec 1N4148]",100,$1.34,https://www.lcsc.com/product-detail/C85057.html,"Must purchase 100 in order to source the 67 diodes needed. Purpose: Used in matrix wiring to prevent ghosting from keyboard."
+"SK6812 MINI-E Addressable LEDs",70,$4.56,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html,"Must purchase 70 in order to source the 66 LEDs needed. Purpose: To add programmable backlight to keyboard."
+"PCB",1,$19.00,https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/bolide-pcb_quote.png,"Uses default PCB settings on JLCPCB."
+"Womier Pudding Keycaps, Black PBT Shine Through (130 Keycap Set)",1,$12.61,https://www.amazon.ca/Womier-Pudding-Keyboard-Switches-Keyboard-Black/dp/B0D4DN5HK1?source=ps-sl-shoppingads-lpcontext&smid=AZ1RQDED92VC&th=1,"Keycap choice is not mandatory. Can choose other keycap set; see-through recommended."
+"Gateron Ink Plate-Mounted Stabilizers",1,$13.95,https://www.gateron.com/products/gateron-ink-plate-mounted-stabilizers?VariantsId=11655,"Stabilizer choice is not mandatory. Can choose other plate-mounted stabilizer set."
+"Gateron G Pro 3.0 Switches (35 pcs)",2,$13.94,https://oneofzero.net/products/gateron-g-pro-3-0-yellow-5-pin-35pcs?variant=48069070913769&country=CA&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AYCX9vLQWyZwLpBhbADS_zuuc73-x0lh0VL6LuQe_FhOOZEI3Ii7-Rwx8VA,"Must purchase 2 packs (70 switches) to cover the 66 switches needed. Switch choice is not mandatory; can choose other MX-style switch."
+"Waveshare RP2040 Zero",1,$4.20,https://ca.robotshop.com/products/rp2040-zero-pico-like-mcu-board-based-on-rp2040-mini-version-w-o-header,"Ensure you have pin headers."
+"EC11 Rotary Encoder",1,$2.22,https://www.lcsc.com/product-detail/C202365.html,"CAD files have custom knob."
+"Rotary Encoder Knob",1,$0.32,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg,"Uses 9600 Resin."
+"GraveShift™ Large Green O-ring",1,$6.10,https://mech.land/products/graveshift-o-rings?variant=43233476772067,"45A hardness; Blue and Orange also recommended."
+"Case",1,$40.75,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg,"Uses 9600 Resin; did not use 8001 Resin as it is over $100."
+"Switch Plate",1,$12.45,https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/laser-cut-quote.jpeg,"Uses acrylic; can use cheaper material."
+"Total Price (USD):",,$132.99,,
