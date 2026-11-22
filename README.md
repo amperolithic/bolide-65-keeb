@@ -1,12 +1,13 @@
 # Bolide65
 Bolide65 is a 66 key, 65% keyboard with a rotary encoder and RGB backlighting under each key. It was built as a submission to Hack Club's [Forge](https://forge.hackclub.com/) YSWS program.
 
-![DONE](assets/readme/bolide-assembly.png)
+<img src="assets/readme/1hero.png" alt="hero" width="100%"> 
 
-I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t* and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (eg. incorporating lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
+I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t*, *y*, and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (eg. incorporating lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
 
 <img src="assets/readme/bolide-pcb_front.png" alt="PCB 3D" width="100%"> 
-<img src="assets/readme/render_top_view.png" alt="PCB 3D" width="100%"> 
+
+![DONE](assets/readme/2cad.jpeg)
 
 ## Features
 
@@ -23,7 +24,7 @@ I was inspired to pursue this project after my sister's laptop's keyboard began 
 
 *The keymap layout (`Bolide65_Layout.json`) was made with [Keyboard Layout Editor NG](https://editor.keyboard-tools.xyz/).
 
-A 6.25u screw-in stabilizers is needed for the Backspace key, while 2u screw-in stabilizers are needed for the Enter, Left Shift, and Space keys. Any 65% compatible keycap set will work with this project. The one listed in the BOM was chosen for its see-through effect and low cost. The blank space in the top-right corner of the keymap is on purpose, as it leaves room for the microcontroller and the encoder. The blank keys is meant to be a custom macro.
+A 6.25u screw-in or clip in stabilizers are needed for the Backspace key, while 2u stabilizers are needed for the Enter, Left Shift, and Space keys. Any 65% compatible keycap set will work with this project. The one listed in the BOM was chosen for its see-through effect and low cost. The blank space in the top-right corner of the keymap is on purpose, as it leaves room for the microcontroller and the encoder. The blank keys is meant to be a custom macro.
 
 ## PCB
 
@@ -31,7 +32,7 @@ A 6.25u screw-in stabilizers is needed for the Backspace key, while 2u screw-in 
 
 This is the PCB (307x101mm) I made for Bolide65, made in KiCad 10.0. Most of the footprints came from the [Marbastlib](https://github.com/ebastler/marbastlib) library, the microcontroller footprint was sourced from [SnapMagic](https://www.snapeda.com/parts/RP2040-ZERO/Waveshare%20Electronics/view-part/), and anything else came from KiCad's default libraries. I used the kbplacer plugin to correctly arrage the switches according to my keymap. 
 
-The microcontroller, LEDs, diodes, resistors, and capacitors are meant to be soldered to the back of the board, while everything else is soldered to the front. It is a 2 layer PCB with GND copper pours on both sides, and DRC passes with no errors!
+The microcontroller, LEDs, diodes, resistors, and capacitors are meant to be soldered to the back of the board, while everything else is soldered to the front. It is a 2 layer PCB with GND copper pours on both sides, and DRC passes with no errors! Although the image shows a green solder mask, a white solder mask is recommended.
 
 **Schematic:**
 
@@ -53,11 +54,16 @@ The QMK firmware the keyboard microcontroller must be flashed with includes the 
 
 ## CAD
 
-The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e20ea32dfc7030467aec0ff3/w/b7b45069ea496daed0bdf8db/e/1ffd2733c11c98bf9e533695?renderMode=0&uiState=6af77d7c11999bcd9a8952bf), utilizes a gummy-o-ring gasket keyboard mount style, hence, no screws are needed for this design. All one needs to do to assemble is solder the switches to the PCB, connect the switches to the top plate, add the o-ring (I recommended using the large blue GraveShift™ O-rings; the orange and green colors also work), and push it into the case. The case was designed to be made of Translucent 8001 Resin, so they keyboard can still *shine like a bolide*. Although any matierial of your choice can work. Similary, the final build will use a brass switch plate (to add weight to the keyboard) but a cheaper matierial such as FR4 or PLA will work). Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through keycaps are recommneded fo this keyboard design.
+The PCB enclosure, designed in [Onshape](https://cad.onshape.com/documents/e20ea32dfc7030467aec0ff3/w/b7b45069ea496daed0bdf8db/e/1ffd2733c11c98bf9e533695?renderMode=0&uiState=6af77d7c11999bcd9a8952bf), utilizes a gummy-o-ring gasket keyboard mount style, hence, no screws are needed for this design. All one needs to do to assemble is solder the switches to the PCB, connect the switches to the top plate, add the o-ring (I recommended using the large green GraveShift™ O-rings; the orange and blue colors also work), and angle it into the case. The case was designed to be made of 9600 Resin. Although most materials of your choice can work. Similarly, the final build will use a laser cut acrylic switch plate (so they keyboard can still *shine like a bolide*), but a cheaper material such as PLA will work). Although the rotary encoder has a custom knob, keycaps are meant to be outsourced. See through pudding keycaps are recommended for this keyboard design.
 
 Thanks to [Kael Ruland](https://github.com/anhthang/dsa-keycap), [GrabCAD](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) and the [scottokeebs](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad/3dmodels) Github for some of the 3D models I used! 
 
-![DONE](assets/readme/bolide-CAD.png)
+Some more renders:
+
+![exploded view](assets/readme/3exploded.png)
+![isometric imitation](assets/readme/4iso.png)
+
+### BOM
 
 | Item Name | Qty | Price (total) (USD) | Item Link | Notes |
 | :--- | :---: | :---: | :--- | :--- |
