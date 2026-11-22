@@ -6,6 +6,7 @@ Bolide65 is a 66 key, 65% keyboard with a rotary encoder and RGB backlighting un
 I was inspired to pursue this project after my sister's laptop's keyboard began acting up, preventing her from using the *t* and *u* key. She has to wait awhile before she can get a new laptop, so decided to make a keyboard for her in the meantime, using her design ideas (eg. incorporating lights) to make the keyboard and consulting her on its appearance and functionality throughout the process. Not only am I helping my sister, but this project really helped me gain more hardware experience (especially regarding routing and CAD).
 
 <img src="assets/readme/bolide-pcb_front.png" alt="PCB 3D" width="100%"> 
+<img src="assets/readme/render_top_view.png" alt="PCB 3D" width="100%"> 
 
 ## Features
 
