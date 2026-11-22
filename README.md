@@ -68,16 +68,15 @@ Thanks to [Kael Ruland](https://github.com/anhthang/dsa-keycap), [GrabCAD](https
 | SK6812 MINI-E Addressable LEDs | 70 | $4.56 | [LCSC](https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) | Must purchase 70 in order to source the 66 LEDs needed. Purpose: To add programmable backlight to keyboard. |
 | PCB | 1 | $19.00 | [Quote](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/bolide-pcb_quote.png) | Uses default PCB settings on JLCPCB. |
 | Womier Pudding Keycaps, Black PBT Shine Through (130 Keycap Set) | 1 | $12.61 | [Amazon.ca](https://www.amazon.ca/Womier-Pudding-Keyboard-Switches-Keyboard-Black/dp/B0D4DN5HK1?source=ps-sl-shoppingads-lpcontext&smid=AZ1RQDED92VC&th=1) | Keycap choice is not mandatory. Can choose other keycap set; see-through recommended. |
-| PCB Mount Screw In Stabilizers (1x 6.25u, 4x 2u) | 1 | $4.72 | [Amazon.ca](https://www.amazon.ca/Mechanical-Keyboard-Stabilizers-Stabilizer-Backlight/dp/B0GS7HQJP6?source=ps-sl-shoppingads-lpcontext&th=1) | Stabilizer choice is not mandatory. Can choose other screw-in stabilizer set. |
-| Glorious Fox Linear Mechanical Switches (110 pcs) | 1 | $23.09 | [Amazon.ca](https://www.amazon.ca/Glorious-Linear-Mechanical-Switches-Keyboards/dp/B0D7QW8SQ9/ref=pd_rhf_dp_s_pd_crcd_d_sccl_2_2/142-2623382-8190419?pd_rd_w=N9TW7&content-id=amzn1.sym.db0cabc9-3101-4abd-a708-693101cbc296&pf_rd_p=db0cabc9-3101-4abd-a708-693101cbc296&pf_rd_r=X0XF2N9P9SKDEEZ0JG4Q&pd_rd_wg=DsLHD&pd_rd_r=42983987-2f36-40de-b8c0-a3e2db3e17d2&pd_rd_i=B0D7QW8SQ9&th=1) | Switch choice is not mandatory. Can choose other MX-style switch. |
+| Gateron Ink Plate-Mounted Stabilizers | 1 | $13.95 | [Gateron](https://www.gateron.com/products/gateron-ink-plate-mounted-stabilizers?VariantsId=11655) | Stabilizer choice is not mandatory. Can choose other plate-mounted stabilizer set. |
+| Gateron G Pro 3.0 Switches (35 pcs) | 2 | $13.94 | [ONEofZERO](https://oneofzero.net/products/gateron-g-pro-3-0-yellow-5-pin-35pcs?variant=48069070913769&country=CA&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AYCX9vLQWyZwLpBhbADS_zuuc73-x0lh0VL6LuQe_FhOOZEI3Ii7-Rwx8VA) | Must purchase 2 packs (70 switches) to cover the 66 switches needed. Switch choice is not mandatory; can choose other MX-style switch. |
 | Waveshare RP2040 Zero | 1 | $4.20 | [RobotShop](https://ca.robotshop.com/products/rp2040-zero-pico-like-mcu-board-based-on-rp2040-mini-version-w-o-header) | Ensure you have pin headers. |
 | EC11 Rotary Encoder | 1 | $2.22 | [LCSC](https://www.lcsc.com/product-detail/C202365.html) | CAD files have custom knob. |
-| Rotary Encoder Knob | 1 | $0.32 | [Quote](https://github.com/ReuTheCoder/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_quote.png) | Uses 9600 Resin. |
-| GraveShift™ Large Blue O-ring | 1 | $6.10 | [Mech.land](https://mech.land/products/graveshift-o-rings?variant=43233476739299) | Green and Orange also recommended. |
-| Case | 1 | $39.29 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/bolide-CAD_case.png) | Uses 9600 Resin; did not use 8001 Resin as it is over $100. |
-| Switch Plate | 1 | $26.89 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/bolide-switch_plate.png) | Uses Brass; can use cheaper material. |
-| **Total Price (USD):** | | **$145.89** | | |
-
+| Rotary Encoder Knob | 1 | $0.32 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg) | Uses 9600 Resin. |
+| GraveShift™ Large Green O-ring | 1 | $6.10 | [Mech.land](https://mech.land/products/graveshift-o-rings?variant=43233476772067) | 45A hardness; Blue and Orange also recommended. |
+| Case | 1 | $40.75 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/resin-print-quote.jpeg) | Uses 9600 Resin; did not use 8001 Resin as it is over $100. |
+| Switch Plate | 1 | $12.45 | [Quote](https://github.com/amperolithic/bolide-65-keeb/blob/main/assets/readme/laser-cut-quote.jpeg) | Uses acrylic; can use cheaper material. |
+| **Total Price (USD):** | | **$132.99** | | |
 
 ## Additonal Notes
 
