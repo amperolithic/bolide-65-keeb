@@ -289,3 +289,9 @@ I had some time today to go over my design and made a few changes. I also tried 
 
 **Total time spent: 2.00 hours**
 
+# November 21: Blender Renders
+
+I learned how to use blender and spent some time choosing some NEW materials for my final build to produce an aesthetic blender render. Will add a more detailed entry soon!
+
+**Total time spent: 1.05 hours**
+
